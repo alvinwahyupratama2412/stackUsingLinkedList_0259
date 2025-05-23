@@ -25,6 +25,7 @@ class Stack{
             Node *newNode = new Node();//alocated memory for the new node 
             newNode ->data = value;     //assign value
             newNode->next= top;         //set the next pointer of the new node to the top
-           
+            top = newNode;              //update the top pointer to the new node
+            
         }
 };
