@@ -41,4 +41,8 @@ class Stack{
             cout << "Popped value :  "<< top->data << endl;
             delete temp;
         }
+        //peek/Top operation: Retrive the value of the topmost element without remove
+        void peek(){
+           
+        }
 };
