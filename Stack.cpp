@@ -26,6 +26,7 @@ class Stack{
             newNode ->data = value;     //assign value
             newNode->next= top;         //set the next pointer of the new node to the top
             top = newNode;              //update the top pointer to the new node
-            
+            cout << "Push value : "<< value<< endl;
+            return value;
         }
 };
