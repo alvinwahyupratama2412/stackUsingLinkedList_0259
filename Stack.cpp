@@ -36,5 +36,6 @@ class Stack{
                 cout << "stack is Empty. "<<endl;
             }
             
+            Node *temp = top; //create a temporary pointer to the top node
         }
 };
