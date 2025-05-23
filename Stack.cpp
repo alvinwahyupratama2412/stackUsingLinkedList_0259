@@ -92,7 +92,15 @@ int main () {
             }
             break;
 
-           
+             case 3:
+             if (!Stack.isEmpty()) {
+                Stack.peek(); // Get the value of the top element
+            }
+            else {
+                cout << "Stack is empty. No top value." << endl;
+            }
+            break;
+        
         }
         cout << endl;
     }
