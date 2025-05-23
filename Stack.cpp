@@ -20,4 +20,8 @@ class Stack{
         Stack(){
             top=NULL;//initialize the stack with a null top pointer
         }
+        //Push Operation: insert an element onto the top of the stack
+        int push(int value){
+            Node *newNode = new Node();//alocated memory for the new node 
+        }
 };
