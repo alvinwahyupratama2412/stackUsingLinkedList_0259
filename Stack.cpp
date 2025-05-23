@@ -38,7 +38,7 @@ class Stack{
             
             Node *temp = top; //create a temporary pointer to the top node
             top= top->next; //Update the top pointer to the next node
-            cout << "Popped value :  "<< top->data << endl;
+            cout << "Popped value :  "<< temp->data << endl;
             delete temp;
         }
         //peek/Top operation: Retrive the value of the topmost element without remove
@@ -82,7 +82,9 @@ int main () {
             cin >> value;
             Stack.push(value);
             break;
-            
+
+            case 2:
+            if (!Stack.isEmpty)
         }
     }
 }
